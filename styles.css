@@ -1,0 +1,728 @@
+
+
+/* CSS for Services Section */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.service-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.service-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1.1em;
+    color: black;
+}
+
+/* Additional Styles (adjust as needed) */
+/* Additional CSS for Services Section */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.service-item {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.service-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.service-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1.1em;
+    color: black;
+}
+
+.service-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(1, 91%, 37%, 0.734);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+.service-item:hover::after {
+    opacity: 1;
+}
+
+/* Additional Styles (adjust as needed) */
+
+
+
+
+/* CSS for Featured Services Section */
+.featured-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.featured-service {
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.featured-service img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.featured-service h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.featured-service p {
+    font-size: 1.1em;
+    color: black;
+}
+
+.featured-service a {
+    display: inline-block;
+    background-color:hsl(1, 91%, 37%);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.featured-service a:hover {
+    background-color: #0d5e6a;
+}
+
+.featured-service::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:hsla(1, 91%, 37%, 0.734);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.featured-service:hover {
+    transform: scale(1.05);
+}
+
+.featured-service:hover::after {
+    opacity: 1;
+}
+
+
+
+
+
+/* CSS for Why Choose Us Section */
+.why-choose-us {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    background-color:hsl(1, 91%, 37%);
+    border-radius: 5px;
+    padding: 1%;
+    color: #ffffff;
+}
+
+.choose-us-item {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.choose-us-item img {
+    max-width: 100%;
+}
+
+.choose-us-item h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.choose-us-item p {
+    font-size: 1.1em;
+    color: black;;
+   
+}
+
+/* Additional Styles (adjust as needed) */
+
+
+/* Additional CSS for Service Details Pages */
+.service-details {
+    padding: 40px 20px;
+    text-align: center;
+   
+}
+
+.service-details h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    background-color:hsl(1, 91%, 37%);
+    border-radius: 5px;
+    padding: 2%;
+    color: #ffffff;
+}
+
+.service-details-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  
+}
+
+.service-details-content img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-details-content h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.service-details-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.service-details-content ul li {
+    margin-bottom: 10px;
+}
+
+.service-details-content p {
+    font-size: 1.2em;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Button Style for Learn More or Call to Action */
+.service-details-content a {
+    display: inline-block;
+    background-color:hsl(1, 91%, 37%);
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.service-details-content a:hover {
+    background-color: #0d5e6a;
+}
+
+/* CSS for Key Features List */
+.service-details-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.service-details-content ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.service-details-content ul li::before {
+    content: "\2022"; /* Unicode character for a bullet point */
+    color:hsl(1, 91%, 37%);
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* Additional Styles (adjust as needed) */
+
+
+
+
+/* CSS for About Us Section */
+.about-us {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-us-content h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.team-member {
+    margin: 4px;
+    background-color: #ffffff;
+    padding: 2%;
+    border-radius: 4px;
+    
+}
+
+.team-member img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 4px;
+    
+}
+
+/* Additional Styles (adjust as needed) */
+
+
+/* CSS for Values Section */
+.values {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.values h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.values-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.value-item {
+    max-width: 300px;
+    margin: 0 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.value-item img {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.value-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.value-item p {
+    font-size: 1.1em;
+    color: black;
+}
+
+/* Additional Styles (adjust as needed) */
+
+
+
+/* CSS for Contact Us Section */
+.contact-us {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-us h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.contact-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.contact-form {
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.contact-info h3,
+.contact-form h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.contact-info p,
+.contact-form label {
+    font-size: 1.1em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label,
+.contact-form textarea,
+.contact-form input {
+    margin-bottom: 15px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color:hsl(1, 91%, 37%);
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0d5e6a;
+}
+
+/* Additional Styles (adjust as needed) */
+
+
+
+/* CSS for Google Maps Integration */
+.google-maps {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.google-maps h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    background-color: hsl(1, 91%, 37%);
+    margin: 3%;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.map-container {
+    margin: 2%;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 aspect ratio (height/width) */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/* CSS for Testimonials Section */
+.testimonials {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonial-item {
+    max-width: 400px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.testimonial-item img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-item p {
+    font-size: 1.2em;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.customer-name {
+    font-weight: bold;
+}
+
+
+
+/* CSS for Call-to-Action Section */
+.call-to-action {
+    margin: 2%;
+    background-color:hsl(1, 91%, 37%);
+   border-radius: 4px;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+
+}
+
+.call-to-action h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color:hsl(1, 91%, 37%);
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e6e6e6;
+}
+
+/* Additional CSS for Footer Section */
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-logo p {
+    font-size: 1.2em;
+}
+
+.footer-links ul,
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li,
+.quick-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.quick-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover,
+.quick-links a:hover {
+    color:hsl(1, 91%, 37%);
+}
+
+.footer-contact p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links,
+    .footer-contact,
+    .quick-links {
+        margin-top: 20px;
+    }
+}
+
+/* Smooth Scroll CSS */
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color:hsl(1, 91%, 37%);
+}
+
+/* Add smooth scrolling to the navigation links */
+.nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Smooth scrolling effect */
+.nav a[href^="#"] {
+    transition: color 0.3s ease;
+}
+
+.nav a[href^="#"]:hover {
+    color:hsl(1, 91%, 37%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+        /* CSS for the fixed "Call Now" button */
+
+
+
+        .fixed-button-container {
+        
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+            animation: infiniteUpDown 2s ease-in-out infinite;
+        }
+        
+        .call-now-button {
+            align-items: center;
+            display: block;
+            background-color: #2ab817;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 18px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        .call-now-button:hover {
+            background-color: rgb(13, 106, 66);
+        }
+        
+        @keyframes infiniteUpDown {
+            0%, 100% {
+                transform: translateY(0);
+            }
+        
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+        
+
+        .phone-icon {
+            font-size: 1.5em;
+            margin-right: 5px;
+        }
